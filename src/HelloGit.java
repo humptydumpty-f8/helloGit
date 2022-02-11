@@ -1,6 +1,13 @@
 public class HelloGit {
+    String message;
+    HelloGit(){
+        message="Hello Git";
+    }
+    void print(){
+        System.out.println(message);
+    }
     public static void main(String[] args) {
-        System.out.println("Hello Git!");
-        System.out.println("Hello Git!");
+        HelloGit helloGit = new HelloGit();
+        helloGit.print();
     }
 }
